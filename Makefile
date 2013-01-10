@@ -21,10 +21,10 @@ name = nagios-plugins-argus
 version = 1.1.0
 release = 1
 
+dist_url = http://argus-authz.github.com/$(name)/distrib/$(name)-$(version).tar.gz
+
 git_url = https://github.com/argus-authz/$(name).git
 git_branch = EMI-3
-
-dist_url = https://github.com/downloads/argus-authz/$(name)/$(name)-$(version).tar.gz
 
 debbuild_dir = $(CURDIR)/debbuild
 
